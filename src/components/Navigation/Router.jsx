@@ -2,7 +2,7 @@ import Home from '../../screens/Home.jsx';
 import Products from '../../screens/Product.jsx';
 import About from '../../screens/About.jsx';
 import Think from '../../screens/Think.jsx';
-import Counter from '../Counter/Counter.jsx';
+import Counter from '../Counter/counter.jsx';
 
 import { Routes, Route } from "react-router";
 
