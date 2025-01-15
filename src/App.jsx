@@ -1,12 +1,12 @@
 import './App.css'
-import  Counter  from './components/Counter/counter.jsx'
-import Home from './screens/Home.jsx'
+import  Navigator  from './components/Navigation/Navigator.jsx'
+import Router from './components/Navigation/Router.jsx'
 
 function App() {
   return (
     <>
-     <Home/>   
-     <Counter/>
+      <Navigator />
+      <Router />
     </>
   )
 }

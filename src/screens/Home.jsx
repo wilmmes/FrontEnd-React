@@ -12,7 +12,7 @@ const Home = () => {
     const count = useSelector((state) => state.counter.value);
   return (
     <div>
-        <span className="counter-value">Count Value: {count}</span>
+        <span className="counter-value">Value: {count}</span>
       <div>
         <Openlink redirectUrl="https://vite.dev" logoImage={viteLogo} />
         <Openlink redirectUrl="https://react.dev" logoImage={reactLogo} />
